@@ -18,12 +18,27 @@ git log --oneline
 **como restaurar un archivo, volver al anterior**
 git reset --hard codigoqueindicagit
 git reset --hard 01cdac6
+
 **hacer seguimiento a todos los archivos de un proyecto y agregar al area intermedia**
 git add .
-
 **al hacer cambio debemos primero ver status**
 git status -s
 **luego agregar al staiged area y luego el commit, se puede hacer ambos con una sola instruccion**
 git commit -am ¨parrafo y tamano de fuente¨
+**ver listado de commit, copias que tenemos de un archivo**
+git log --oneline
 
+**modificar descripcion de un commit en el editor VIM**
+git commit --amend
+dentro del vim podemos por ej modificar la descripcion
+ejecutamos 
+:i luego enter y suprimir el nombre luego esc
+:i y escribir nuevo cambio enter y esc
+:wq guardar y salir
 
+correo: sgq1027.1@gmail.com
+pass:Gitsgq1994
+usu: sindicatura
+
+**subir archivo a github**
+git remote add origin https://github.com/sindicatura/CursoGit.git
