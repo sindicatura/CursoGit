@@ -1,0 +1,29 @@
+**crear repositorio**
+git init
+**ver si git esta viedo los archivos y mostyrar si hubo cambios, aparece con una M**
+git status -s
+**hacer seguimiento de un archivo**
+git add nombrearchivo
+**crear copia de respaldo, hacer instantanea**
+git commit -m ¨comienzo del proyecto¨
+**hacer respaldo de los cambios de un afrchivo**
+git commit -m ¨indicar los cambios realizados¨
+**preparar el archivo para el commit, llevar al area de ensayo el archivo para realizar el commit**
+git add nombrearchivo
+git status -s debe indicar asi (M  index.html)
+a continuacion se puede hacer la instantanea
+git commit -m ¨indicar los cambios realizados¨
+**ver listado de commit, copias que tenemos de un archivo**
+git log --oneline
+**como restaurar un archivo, volver al anterior**
+git reset --hard codigoqueindicagit
+git reset --hard 01cdac6
+**hacer seguimiento a todos los archivos de un proyecto y agregar al area intermedia**
+git add .
+
+**al hacer cambio debemos primero ver status**
+git status -s
+**luego agregar al staiged area y luego el commit, se puede hacer ambos con una sola instruccion**
+git commit -am ¨parrafo y tamano de fuente¨
+
+
